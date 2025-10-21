@@ -27,12 +27,6 @@ Michael Pytel, Vass, <michael.pytel@vasscompany.com>
   - [SAP Document AI
     Link](https://sap-document-ai-gcp.us30.doc.cloud.sap/)
 
-- Lab User Information
-
-  - User: **labuser\<##\>@vasscompany.com**
-
-  - Password: Newpa55!
-
 - Replace \<##\> with your Lab User Number assigned by the instructors
 
 ![A screenshot of a computer AI-generated content may be
