@@ -4,27 +4,10 @@ Michael Pytel, Vass, <michael.pytel@vasscompany.com>
 
 <https://vasscompany.com>
 
-Index
-
-# Table of Contents {#table-of-contents .TOC-Heading}
-
-[Environment Information
-[2](#environment-information)](#environment-information)
-
-[Configure SAP Document AI
-[2](#configure-sap-document-ai)](#configure-sap-document-ai)
-
-[Create an Automation with SAP Build
-[5](#create-an-automation-with-sap-build)](#create-an-automation-with-sap-build)
-
-[Monitoring and Logging in SAP Build
-[23](#monitoring-and-logging-in-sap-build)](#monitoring-and-logging-in-sap-build)
-
-# 
 
 # Environment Information
 
-- [Please use GOOGLE CHROME as your browser]{.underline}
+- Please use GOOGLE CHROME as your browser
 
 - SAP BTP URLs:
 
@@ -43,12 +26,6 @@ Index
 
   - [SAP Document AI
     Link](https://sap-document-ai-gcp.us30.doc.cloud.sap/)
-
-- Lab User Information
-
-  - User: **labuser\<##\>@vasscompany.com**
-
-  - Password: Newpa55!
 
 - Replace \<##\> with your Lab User Number assigned by the instructors
 
