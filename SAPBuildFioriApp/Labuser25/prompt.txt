@@ -1,0 +1,29 @@
+In this application, users will be able to search for sales orders using the specified criteria and view the relevant details in a user-friendly table format.
+
+Here are the details:
+
+Application Title:Quick Order Display
+
+Search Fields (Default):
+* Customer
+* Order Date
+* Sales Document 
+* Overall Status   
+
+Table Columns (Displayed from Sales Order Header details):
+* Customer
+* Sales Document
+* Overall Status
+* Order Date
+* Net Value
+* Delivery Status
+* Invoice Status
+
+
+Functionality:
+* The application should fetch Sales Order Header details when they press Go.
+* Users should be allowed to export table contents to Excel or CSV
+* Users should be able to click on a row in the table to navigate to a detailed view of the selected sales order header, pulling more information from the S/4HANA Public Cloud Sales Order Header API.
+
+Here is a visual representation of the desired application layout:
+![Sales Order Application Layout](/home/user/projects/inputs/QuickSalesDisplay.jpg)
