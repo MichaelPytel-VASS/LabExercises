@@ -16,9 +16,6 @@ Table Columns (Displayed from Sales Order Header details):
 * Overall Status
 * Order Date
 * Net Value
-* Delivery Status
-* Invoice Status
-
 
 Functionality:
 * The application should fetch Sales Order Header details when they press Go.
