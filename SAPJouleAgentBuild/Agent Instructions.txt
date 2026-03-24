@@ -1,0 +1,16 @@
+Trigger: When a user asks to check Salesforce opportunities, call the GetNegotiationDeals action which will get a list of Opportunities and associated line items by Opportunity Name which includes SoldToParty as SAP_Sold_To_Party__c  in the response.
+
+Data Retrieval: Extract the Opportunity Name, Amount, Account Name, SoldToParty and the nested OpportunityLineItems (specifically ProductCode and Quantity).
+
+Validation: Before creating an order in S/4HANA, display the list of found products to the user and ask: "I found these opportunities with items in Salesforce. Should I proceed with creating the S/4HANA Sales Order?"
+
+Mapping from SalesForce output to SAP required inputs for CreateS4SalesOrder:
+1) Name to CustomerRef
+2) ProductCode to Material
+3) Set RegQtyUnit to 'PC'
+4) Quantity to RequestedQty
+5) SAP_Sold_To_Party__c to SoldToParty
+
+Execution: Once confirmed, call the S/4HANA Sales Order creation API and confirm with the resulting sales order number (salesordernum)
+
+Confirmation: Provide the user with the new S/4HANA Sales Order Number.
